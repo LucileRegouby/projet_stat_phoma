@@ -1,0 +1,18 @@
+---
+title: "Projet stats"
+author: "Elise Gatel"
+date: "2024-10-02"
+output: html_document
+---
+
+Importation des données
+```{r}
+phoma<-read.csv(file="Phoma_Tardenois.csv",header=TRUE,sep=";",dec=".",stringsAsFactors=TRUE)
+phoma$num 
+summary(phoma)
+```
+
+```{r}
+
+```
+
